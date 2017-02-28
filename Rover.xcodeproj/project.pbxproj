@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		46E1D4FE1E65DCEB00DDAF9A /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46E1D4FD1E65DCEB00DDAF9A /* APIKeys.plist */; };
+		5CC518401E661A52009A932E /* DMNRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5183F1E661A52009A932E /* DMNRover.m */; };
+		5CC518431E661A5A009A932E /* DMNPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC518421E661A5A009A932E /* DMNPhoto.m */; };
+		5CC518461E661A66009A932E /* DMNSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC518451E661A66009A932E /* DMNSolDescription.m */; };
 		9DE7D67F1E4E26CF004CBBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */; };
 		9DE7D6801E4E26CF004CBBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6741E4E26CF004CBBD8 /* LaunchScreen.storyboard */; };
 		9DE7D6811E4E26CF004CBBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6761E4E26CF004CBBD8 /* Main.storyboard */; };
@@ -17,6 +20,12 @@
 
 /* Begin PBXFileReference section */
 		46E1D4FD1E65DCEB00DDAF9A /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		5CC5183E1E661A52009A932E /* DMNRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNRover.h; sourceTree = "<group>"; };
+		5CC5183F1E661A52009A932E /* DMNRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNRover.m; sourceTree = "<group>"; };
+		5CC518411E661A5A009A932E /* DMNPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhoto.h; sourceTree = "<group>"; };
+		5CC518421E661A5A009A932E /* DMNPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhoto.m; sourceTree = "<group>"; };
+		5CC518441E661A66009A932E /* DMNSolDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSolDescription.h; sourceTree = "<group>"; };
+		5CC518451E661A66009A932E /* DMNSolDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSolDescription.m; sourceTree = "<group>"; };
 		9DE7D6581E4E26AC004CBBD8 /* Rover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE7D6751E4E26CF004CBBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,6 +116,12 @@
 		9DE7D68A1E4E2704004CBBD8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CC5183E1E661A52009A932E /* DMNRover.h */,
+				5CC5183F1E661A52009A932E /* DMNRover.m */,
+				5CC518411E661A5A009A932E /* DMNPhoto.h */,
+				5CC518421E661A5A009A932E /* DMNPhoto.m */,
+				5CC518441E661A66009A932E /* DMNSolDescription.h */,
+				5CC518451E661A66009A932E /* DMNSolDescription.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -201,6 +216,9 @@
 			files = (
 				9DE7D6841E4E26CF004CBBD8 /* main.m in Sources */,
 				9DE7D6831E4E26CF004CBBD8 /* DMNRoverAppDelegate.m in Sources */,
+				5CC518431E661A5A009A932E /* DMNPhoto.m in Sources */,
+				5CC518461E661A66009A932E /* DMNSolDescription.m in Sources */,
+				5CC518401E661A52009A932E /* DMNRover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
