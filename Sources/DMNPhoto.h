@@ -10,6 +10,8 @@
 
 @interface DMNPhoto : NSObject
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
 @property (nonatomic) NSInteger identifier;
 @property (nonatomic) NSInteger sol;
 @property (nonatomic, copy) NSString *cameraName;

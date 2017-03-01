@@ -7,7 +7,19 @@
 //
 
 #import "DMNSolDescription.h"
+#import "DMNDictionaryKeys.m"
 
 @implementation DMNSolDescription
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
+{
+    self = [super init];
+    if (self) {
+        _sol = [dictionary[solKey] integerValue];
+        _numberOfPhotos = [dictionary[numberOfPhotosKey] integerValue];
+        _cameras = [dictionary[camerasKey] copy];
+    }
+    return self;
+}
 
 @end

@@ -10,9 +10,11 @@
 
 @interface DMNSolDescription : NSObject
 
-@property (nonatomic) NSInteger sol;
-@property (nonatomic) NSInteger numberOfPhotos;
-@property (nonatomic, copy) NSArray *cameras;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+@property (nonatomic, readonly) NSInteger sol;
+@property (nonatomic, readonly) NSInteger numberOfPhotos;
+@property (nonatomic, strong, readonly) NSArray *cameras;
 
 
 @end
