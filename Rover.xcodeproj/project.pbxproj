@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		46E1D4FE1E65DCEB00DDAF9A /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46E1D4FD1E65DCEB00DDAF9A /* APIKeys.plist */; };
 		5C7E8CF71E677265001E1CC7 /* DMNMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E8CF61E677265001E1CC7 /* DMNMarsRoverClient.m */; };
+		5C7E8CFA1E6793A1001E1CC7 /* DMNRoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E8CF91E6793A1001E1CC7 /* DMNRoversTableViewController.m */; };
+		5C7E8CFD1E6793B1001E1CC7 /* DMNSolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E8CFC1E6793B1001E1CC7 /* DMNSolsTableViewController.m */; };
+		5C7E8D001E6793CB001E1CC7 /* DMNPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E8CFF1E6793CB001E1CC7 /* DMNPhotosCollectionViewController.m */; };
+		5C7E8D031E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E8D021E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.m */; };
 		5CC518401E661A52009A932E /* DMNRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5183F1E661A52009A932E /* DMNRover.m */; };
 		5CC518431E661A5A009A932E /* DMNPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC518421E661A5A009A932E /* DMNPhoto.m */; };
 		5CC518461E661A66009A932E /* DMNSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC518451E661A66009A932E /* DMNSolDescription.m */; };
 		5CC518481E6622C6009A932E /* DMNDictionaryKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC518471E6622C6009A932E /* DMNDictionaryKeys.m */; };
-		5CC5184E1E662516009A932E /* DMNCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5184D1E662516009A932E /* DMNCollectionViewController.m */; };
 		9DE7D67F1E4E26CF004CBBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */; };
 		9DE7D6801E4E26CF004CBBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6741E4E26CF004CBBD8 /* LaunchScreen.storyboard */; };
 		9DE7D6811E4E26CF004CBBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6761E4E26CF004CBBD8 /* Main.storyboard */; };
@@ -25,6 +28,14 @@
 		46E1D4FD1E65DCEB00DDAF9A /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 		5C7E8CF51E677265001E1CC7 /* DMNMarsRoverClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNMarsRoverClient.h; sourceTree = "<group>"; };
 		5C7E8CF61E677265001E1CC7 /* DMNMarsRoverClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNMarsRoverClient.m; sourceTree = "<group>"; };
+		5C7E8CF81E6793A1001E1CC7 /* DMNRoversTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNRoversTableViewController.h; sourceTree = "<group>"; };
+		5C7E8CF91E6793A1001E1CC7 /* DMNRoversTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNRoversTableViewController.m; sourceTree = "<group>"; };
+		5C7E8CFB1E6793B1001E1CC7 /* DMNSolsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSolsTableViewController.h; sourceTree = "<group>"; };
+		5C7E8CFC1E6793B1001E1CC7 /* DMNSolsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSolsTableViewController.m; sourceTree = "<group>"; };
+		5C7E8CFE1E6793CB001E1CC7 /* DMNPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		5C7E8CFF1E6793CB001E1CC7 /* DMNPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		5C7E8D011E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		5C7E8D021E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		5CC5183E1E661A52009A932E /* DMNRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNRover.h; sourceTree = "<group>"; };
 		5CC5183F1E661A52009A932E /* DMNRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNRover.m; sourceTree = "<group>"; };
 		5CC518411E661A5A009A932E /* DMNPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhoto.h; sourceTree = "<group>"; };
@@ -32,8 +43,6 @@
 		5CC518441E661A66009A932E /* DMNSolDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSolDescription.h; sourceTree = "<group>"; };
 		5CC518451E661A66009A932E /* DMNSolDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSolDescription.m; sourceTree = "<group>"; };
 		5CC518471E6622C6009A932E /* DMNDictionaryKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNDictionaryKeys.m; sourceTree = "<group>"; };
-		5CC5184C1E662516009A932E /* DMNCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNCollectionViewController.h; sourceTree = "<group>"; };
-		5CC5184D1E662516009A932E /* DMNCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNCollectionViewController.m; sourceTree = "<group>"; };
 		9DE7D6581E4E26AC004CBBD8 /* Rover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE7D6751E4E26CF004CBBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,6 +136,8 @@
 		9DE7D6891E4E2702004CBBD8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C7E8D011E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.h */,
+				5C7E8D021E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -155,8 +166,12 @@
 		9DE7D68C1E4E2705004CBBD8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5CC5184C1E662516009A932E /* DMNCollectionViewController.h */,
-				5CC5184D1E662516009A932E /* DMNCollectionViewController.m */,
+				5C7E8CF81E6793A1001E1CC7 /* DMNRoversTableViewController.h */,
+				5C7E8CF91E6793A1001E1CC7 /* DMNRoversTableViewController.m */,
+				5C7E8CFB1E6793B1001E1CC7 /* DMNSolsTableViewController.h */,
+				5C7E8CFC1E6793B1001E1CC7 /* DMNSolsTableViewController.m */,
+				5C7E8CFE1E6793CB001E1CC7 /* DMNPhotosCollectionViewController.h */,
+				5C7E8CFF1E6793CB001E1CC7 /* DMNPhotosCollectionViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -235,14 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7E8CFD1E6793B1001E1CC7 /* DMNSolsTableViewController.m in Sources */,
 				9DE7D6841E4E26CF004CBBD8 /* main.m in Sources */,
 				9DE7D6831E4E26CF004CBBD8 /* DMNRoverAppDelegate.m in Sources */,
 				5CC518431E661A5A009A932E /* DMNPhoto.m in Sources */,
 				5CC518481E6622C6009A932E /* DMNDictionaryKeys.m in Sources */,
 				5CC518461E661A66009A932E /* DMNSolDescription.m in Sources */,
-				5CC5184E1E662516009A932E /* DMNCollectionViewController.m in Sources */,
+				5C7E8D031E6793E8001E1CC7 /* DMNPhotoCollectionViewCell.m in Sources */,
 				5C7E8CF71E677265001E1CC7 /* DMNMarsRoverClient.m in Sources */,
 				5CC518401E661A52009A932E /* DMNRover.m in Sources */,
+				5C7E8D001E6793CB001E1CC7 /* DMNPhotosCollectionViewController.m in Sources */,
+				5C7E8CFA1E6793A1001E1CC7 /* DMNRoversTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  DMNCollectionViewController.m
+//  DMNPhotosCollectionViewController.m
 //  Rover
 //
-//  Created by Jeremiah Hawks on 2/28/17.
+//  Created by Jeremiah Hawks on 3/1/17.
 //  Copyright © 2017 DevMountain. All rights reserved.
 //
 
-#import "DMNCollectionViewController.h"
+#import "DMNPhotosCollectionViewController.h"
 
-@interface DMNCollectionViewController ()
+@interface DMNPhotosCollectionViewController ()
 
 @end
 
-@implementation DMNCollectionViewController
+@implementation DMNPhotosCollectionViewController
 
 static NSString * const reuseIdentifier = @"Cell";
 
