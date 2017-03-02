@@ -36,7 +36,7 @@
             dispatch_group_enter(group);
             [client fetchMissionManifestForRovernamed:name completion:^(DMNRover *rover, NSError *error) {
                 if (error) {
-                    NSLog(@"Error fetching list of mars rovers: %@", error);
+                    NSLog(@"Error fetching list of mars rovers manifests: %@", error);
                     dispatch_group_leave(group);
                     return;
                 }

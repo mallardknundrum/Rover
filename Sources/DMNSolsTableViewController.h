@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DMNRover.h"
+
+@class DMNRover;
 
 @interface DMNSolsTableViewController : UITableViewController
 
