@@ -56,7 +56,8 @@
         }
         NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
         NSDictionary *manifest = nil;
-        if (!jsonDictionary || ![jsonDictionary isKindOfClass:[NSDictionary class]] || !(manifest = jsonDictionary[@"photo_manifest:"])) {
+        if (!jsonDictionary || ![jsonDictionary isKindOfClass:[NSDictionary class]] ||
+            !(manifest = jsonDictionary[@"photo_manifest"])) {
             NSDictionary *userInfo = nil;
             if (error) { userInfo = @{NSUnderlyingErrorKey : error}; }
             NSError *localError = [NSError errorWithDomain:@"com.DevMountain.Rover.ErrorDomain" code:-1 userInfo:userInfo];
